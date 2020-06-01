@@ -1,0 +1,13 @@
+.container {
+  margin-top: 1em;
+}
+
+.heading {
+  margin: 1em auto 0em;
+  color: rgb(98, 98, 98);
+}
+
+.navbar-dark .navbar-brand a {
+  color: #fff;
+  text-decoration: none;
+}
