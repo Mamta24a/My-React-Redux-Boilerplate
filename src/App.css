@@ -11,3 +11,7 @@
   color: #fff;
   text-decoration: none;
 }
+
+.navbar-brand img {
+  height: 30px;
+}

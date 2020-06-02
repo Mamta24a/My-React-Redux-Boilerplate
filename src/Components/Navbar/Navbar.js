@@ -8,6 +8,7 @@ class NavbarMenu extends Component {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Navbar.Brand>
                     <Link to="/">
+                        <img src="/assets/logo.svg" />{" "}
                         My App
                     </Link>
                 </Navbar.Brand>
