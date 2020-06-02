@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import UserList from './Components/UserList/UserList';
+import Navbar from './containers/Navbar/Navbar';
+import UserList from './containers/UserList/UserList';
 import { Container } from 'react-bootstrap';
 
 function App() {

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Button } from "react-bootstrap";
 import { fetchUserListApi } from "../../actions/userAction";
+import User from "../../components/user/User";
 
 class UserList extends Component {
 
@@ -21,7 +22,7 @@ class UserList extends Component {
         let { userList, loading } = this.props.userState;
         return (
             <div>
-                <h3 className="heading">Hello User...</h3>
+                <User />
             </div>
         );
     }
